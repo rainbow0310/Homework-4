@@ -1,0 +1,17 @@
+Jamie Barbara
+Explain the following in a few sentences and give an example in your own words (or research the internet to find one. If researched, please cite your source): 
+
+a) World coordinate system 
+	i) The world coordinate system is what defines GameObjects positions and orientations in the whole scene. The center is (0,0,0) which is the center of the Unity world. A real-world example would be the coordinates on Earth. (0,0) is the center of the Earth and longitude and latitude explain where locations are relative to the center. In Unity an example would be creating an object and placing it at (1,1,1) which would be 1 unit away from the center of the Unity world. 
+
+b) Local coordinate system 
+	i) a local coordinate system defines positions and orientations relative to the GameObject itself. Furthermore, the origin of a GameObject in a local coordinate system is the center of that GameObject; the axes are orientated based on the object's current rotation. In the previous example of the cube, The origin of that cube would be its center, the local x-axis refers to the cube's right and left, the local y-axis refers to the cube's up and down, and the local z-axis refers to the cube's forward and backward directions.
+
+c) Vector3; Also, explain any two vectors in Unity of your choice. 
+	i) Vector3 is a vector used to represent 3D vectors in space that manipulate positions and directions in Unity. Vector3 consists of 3 components, x,y, and z to move an object. For example, Vector3.right (1,0,0) would move an object one unit to the right on the x-axis, while Vector3.down (0,-1,0) would move an object one unit down on the y-axis. 
+
+d) Rigidbody.AddRelativeForce function 
+	i) This function moves objects relative to their orientation and local coordinate system. Moreover, this function takes into account the rotation/ direction that the object is currently in when adding force, meaning that, in Project Rocket Boost, Rigidbody.AddRelativeForce was demonstrated through the rocket when the rocket was thrust forward locally in the direction that the user rotated it towards using the A and D keys. 
+
+e) Input.GetKey function
+	i) The Input.GetKey method is used to bind a key to an input that is recorded by Unity. Moreover, This function allows Unity to detect and link the click/holding of a key on a keyboard to an action in the game. For example, in Project Rocket Boost, Input.GetKey was used to let Unity detect and link the pressing of the space bar to trigger the rocket's thrust. 
